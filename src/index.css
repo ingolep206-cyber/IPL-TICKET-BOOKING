@@ -54,6 +54,41 @@ body {
   margin: 0;
 }
 
+:root {
+  color-scheme: light;
+  color: #17251f;
+  background: #f5f1e8;
+  font: 16px/1.5 "Trebuchet MS", "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+body {
+  min-width: 320px;
+  background: #f5f1e8;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  border: 0;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
 #root {
   width: 1126px;
   max-width: 100%;
